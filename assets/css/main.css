@@ -321,7 +321,8 @@ div#ventanaPOP {
 		height: 100%;
 		top: 0;
 		bottom: 0px;
-		mix-blend-mode: overlay;
+		/* mix-blend-mode: overlay; */
+		opacity: 0.3;
 	}
 		div#huella img {
 			object-fit: contain;
@@ -508,7 +509,7 @@ div#ventanaPOP {
 	div#huella img {
 		object-fit: contain;
 		width: auto;
-		height: 85%;
+		height: 60%;
 		object-position: top;
 	}
 	
