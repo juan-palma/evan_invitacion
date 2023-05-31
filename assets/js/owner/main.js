@@ -1,6 +1,13 @@
 function iniciar() {
-	
-    
+	const urlREgistro = "#";
+	const btnRegistro = document.querySelectorAll('.btnRegistro');
+
+	btnRegistro.forEach(el => {
+		el.addEventListener('click', (e) => {
+			e.stopPropagation();
+			window.location.href = urlREgistro;
+		})
+	});
 }
 
 
