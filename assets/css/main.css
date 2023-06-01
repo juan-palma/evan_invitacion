@@ -259,7 +259,7 @@ div#ventanaPOP {
 	.bloqueI {
 		position: relative;
 		width: 100%;
-		max-width: 1024px;
+		max-width: 860px;
 		/* flex: 1 1 auto; */
 		display: flex;
 		flex-direction: column;
