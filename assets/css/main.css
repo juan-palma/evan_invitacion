@@ -272,7 +272,7 @@ div#ventanaPOP {
 	background : var(--colorBackDark);
 	background-size: cover;
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
 	justify-content: flex-start;
 	align-items: center;
 	min-height: 100vh;
@@ -333,7 +333,7 @@ div#ventanaPOP {
 
 	svg#ponencia {
 		width: 90%;
-		padding: 5rem 0px 24px 0px;
+		padding: 6vw 0px 24px 0px;
 	}
 
 	div#scanner {
@@ -436,15 +436,16 @@ div#ventanaPOP {
 
 	div#logos {
 		background-color: #191819;
-		padding: 54px 0px;
+		padding: 32px 0px;
+		align-self: flex-end;
 	}
 
 	#logos .bloqueI {
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
-		gap: 50px;
-		padding: 0px 32px;
+		gap: 7vw;
+		padding: 0px 7vw;
 	}
 		#logos .bloqueI > div {
 			flex: 1 1 auto;
@@ -464,7 +465,7 @@ div#formBox {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	min-height: 100vh;
+	padding: 28px 0px 54px;
 }
 	#formBox div#scanner {
 		position: relative;
@@ -736,7 +737,9 @@ div#formBox {
 	Estilos para un especto de pie pero en dispositivos pequeños
 ========================================================================== */
 @media screen and (orientation:portrait) and (max-width: 680px){
-	
+	form#formReg .boxInput.error .inputError {
+		font-size: 65%;
+	}
 }
 
 
@@ -779,7 +782,7 @@ div#formBox {
 	Estilos para un espect acostado pero en dispositivos muy chicos
 ========================================================================== */
 @media screen and (orientation:landscape) and (max-height: 460px){
-
+	
 }
 
 
